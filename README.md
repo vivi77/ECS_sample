@@ -5,7 +5,7 @@ This repository shows how can be used the library ECS
 
 ## Content
 
-#Systems
+### Systems
 
   * CoreCommands: This system serves as an interface between Core class and
     other system. It handles its own Event that other Systems can use to
@@ -26,7 +26,7 @@ This repository shows how can be used the library ECS
     TextInput Component and the View would be the Text Component that would be
     displayed by a graphic System.
 
-#Components
+### Components
 
   * Polygon: A Component template designed to be used for either 2D or 3D
     software.
@@ -39,7 +39,7 @@ This repository shows how can be used the library ECS
   * Transform: Component that keeps information about the position, rotation and
     scale of a Entity in a graphical program.
 
-#Events
+### Events
 
   * CLISystemEvent: CLI System event. It gives some control on CLI System such
     as enable and disable this system.
